@@ -25,7 +25,7 @@ Clone the repository and install dependencies:
 
 ```sh
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/youtube_clone.git
+git clone https://github.com/ibrahimAlbadawi/youtube_clone.git
 cd youtube_clone
 
 # Install dependencies
@@ -77,5 +77,6 @@ This project is licensed under the MIT License.
 
 ---
 
-🚀 Happy coding!
+## Note
+This project was taken from JS Mastery on Youtube
 
