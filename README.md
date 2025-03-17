@@ -25,12 +25,27 @@ Clone the repository and install dependencies:
 
 ```sh
 # Clone the repo
-git clone https://github.com/ibrahimAlbadawi/youtube_clone.git
+git clone https://github.com/YOUR_USERNAME/youtube_clone.git
 cd youtube_clone
 
 # Install dependencies
 npm install
 ```
+
+## 🔑 API Key Configuration
+This project uses **RapidAPI** for fetching video data. You need to set up an `.env` file in the root directory with your API key.
+
+1. Create a `.env` file:
+   ```sh
+   touch .env
+   ```
+
+2. Add your **RapidAPI Key** to the `.env` file:
+   ```env
+   VITE_RAPID_API_KEY=your_rapid_api_key_here
+   ```
+
+3. Restart the development server after adding the key.
 
 ## 🚀 Running the Project
 To start the development server:
@@ -79,4 +94,3 @@ This project is licensed under the MIT License.
 
 ## Note
 This project was taken from JS Mastery on Youtube
-
